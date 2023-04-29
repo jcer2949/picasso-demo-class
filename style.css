@@ -4,6 +4,7 @@ body{
 }
 
 .container{
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -27,4 +28,63 @@ body{
     border: white 0.3rem solid;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.circle{
+   width: 80px;
+   position:absolute;
+   height: 80px;
+   border-radius: 50%;
+
+}
+
+.circle1{
+    background-color: #fe8888;
+    width: 30px;
+   height: 30px;
+   top: 20px;
+   left: 20px;
+   z-index: 1;
+}
+
+.circle2{
+    background-color: yellow;
+   top: 30px;
+   left: 160px;
+   z-index: 1;
+}
+
+.circle3{
+    background-color: #fe8888;
+    width: 30px;
+   height: 30px;
+   top: 40px;
+   left: 360px;
+   z-index: 1;
+}
+
+.circle4{
+    background-color: #fe8888;
+    width: 30px;
+   height: 30px;
+   top: 120px;
+   left: 20px;
+   z-index: 1;
+}
+
+.circle5{
+    background-color: yellow;
+    width: 30px;
+   height: 30px;
+   top: 190px;
+   left: 80px;
+   z-index: 1;
+}
+
+.circle6{
+    background-color: #fe8888;
+    
+   top: 90px;
+   left: 240px;
+   z-index: 1;
 }
